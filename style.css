@@ -1,0 +1,63 @@
+/* CSS HEX
+--light-cyan: #c7eae4ff;
+--celadon: #a7e8bdff;
+--spanish-pink: #fcbcb8ff;
+--pastel-pink: #efa7a7ff;
+--orange-yellow-crayola: #ffd972ff;
+
+*/
+
+body {
+  color: black;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+    color: yellow;
+}
+
+/* ---Profile--- */
+header {
+  background-color: #c7eae4ff;
+}
+
+/* ---Projects--- */
+.projects {
+  background-color: #a7e8bdff;
+}
+
+.btn {
+    color: lightskyblue;
+    background-color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-size: large;
+    background-color: rgba(0, 0, 139, 0.651);
+}
+
+/* ---Experience--- */
+.work-experience {
+  background-color: #fcbcb8ff;
+}
+
+/* ---Education--- */
+.education {
+  background-color: #efa7a7ff;
+}
+
+/* ---Contact--- */
+footer {
+  background-color: #ffd972ff;
+}
+
+footer a {
+    color: plum;
+}
