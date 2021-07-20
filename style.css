@@ -4,19 +4,32 @@
 --spanish-pink: #fcbcb8;
 --pastel-pink: #efa7a7;
 --orange-yellow-crayola: #ffd972;
-
+  font-family: "Texturina", serif;
 */
 
 body {
   background-color: #eeeeee;
+  padding: 0;
+  margin: 0;
+  font-family: "Thasadith", sans-serif;
 }
 
 a {
-  color: #0F044C;
+  color: #0f044c;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+.content-wrap {
+  width: 67%;
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 /* ---Profile--- */
@@ -27,19 +40,20 @@ a:hover {
 }
 
 .projects a {
-  color: #FFA200;
+  color: #ffa200;
 }
 
 .projects .btn {
   color: white;
-    background-color: #FF8939;
-    padding: 8px;
-    border-radius: 4px;
-    text-decoration: none;
+  background-color: #ff8939;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .projects .btn:hover {
-    background-color: #FFB739;
+  background-color: #ffb739;
 }
 
 /* ---Experience--- */
