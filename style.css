@@ -1,10 +1,7 @@
-/* CSS HEX
---light-cyan: #c7eae4;
---celadon: #a7e8bd;
---spanish-pink: #fcbcb8;
---pastel-pink: #efa7a7;
---orange-yellow-crayola: #ffd972;
-*/
+::selection {
+  color: #EFEFEF;
+  background: #0A1931;
+}
 
 body {
   background-color: #eeeeee;
@@ -14,11 +11,13 @@ body {
 }
 
 a {
+  color: #0F044C;
   font-style: italic;
   text-decoration: none;
 }
 
 a:hover {
+  background-color: whitesmoke;
   text-decoration: underline;
 }
 
@@ -46,14 +45,7 @@ p {
   padding: 35px 0;
 }
 
-/* ---Profile & Contact--- */
-header a, footer a {
-  color: #0F044C;
-}
-
-header a:hover, footer a:hover {
-  background-color: whitesmoke;
-}
+/* ---Profile--- */
 
 /* ---Projects--- */
 .projects {
@@ -64,17 +56,21 @@ header a:hover, footer a:hover {
   color: #ffa200;
 }
 
+.projects a:hover {
+  background-color: transparent;
+}
+
 .projects .btn {
   color: white;
   background-color: #ff8939;
   padding: 8px;
   border-radius: 4px;
-  text-decoration: none;
   display: inline-block;
 }
 
 .projects .btn:hover {
   background-color: #ffb739;
+  text-decoration: none;
 }
 
 /* ---Experience--- */
