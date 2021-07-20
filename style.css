@@ -4,7 +4,6 @@
 --spanish-pink: #fcbcb8;
 --pastel-pink: #efa7a7;
 --orange-yellow-crayola: #ffd972;
-  font-family: "Texturina", serif;
 */
 
 body {
@@ -15,24 +14,46 @@ body {
 }
 
 a {
-  color: #0f044c;
-}
-
-a:hover {
+  font-style: italic;
   text-decoration: none;
 }
 
-h2 {
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: "Texturina", serif;
   margin: 0;
+}
+
+h1 {
+  font-size: 59px;
+}
+
+h2 {
+  font-size: 37px;
+}
+
+p {
+  text-align: justify;
 }
 
 .content-wrap {
   width: 67%;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 
-/* ---Profile--- */
+/* ---Profile & Contact--- */
+header a, footer a {
+  color: #0F044C;
+}
+
+header a:hover, footer a:hover {
+  background-color: whitesmoke;
+}
 
 /* ---Projects--- */
 .projects {
