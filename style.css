@@ -1,63 +1,55 @@
 /* CSS HEX
---light-cyan: #c7eae4ff;
---celadon: #a7e8bdff;
---spanish-pink: #fcbcb8ff;
---pastel-pink: #efa7a7ff;
---orange-yellow-crayola: #ffd972ff;
+--light-cyan: #c7eae4;
+--celadon: #a7e8bd;
+--spanish-pink: #fcbcb8;
+--pastel-pink: #efa7a7;
+--orange-yellow-crayola: #ffd972;
 
 */
 
 body {
-  color: black;
-  background-color: whitesmoke;
-}
-
-img {
-  width: 300px;
+  background-color: #eeeeee;
 }
 
 a {
-    color: yellow;
+  color: #0F044C;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* ---Profile--- */
-header {
-  background-color: #c7eae4ff;
-}
 
 /* ---Projects--- */
 .projects {
-  background-color: #a7e8bdff;
+  background-color: #c7eae4;
 }
 
-.btn {
-    color: lightskyblue;
-    background-color: darkblue;
-    padding: 5px;
-    border-radius: 5px;
+.projects a {
+  color: #FFA200;
+}
+
+.projects .btn {
+  color: white;
+    background-color: #FF8939;
+    padding: 8px;
+    border-radius: 4px;
     text-decoration: none;
 }
 
-.btn:hover {
-    font-size: large;
-    background-color: rgba(0, 0, 139, 0.651);
+.projects .btn:hover {
+    background-color: #FFB739;
 }
 
 /* ---Experience--- */
 .work-experience {
-  background-color: #fcbcb8ff;
+  background-color: #a7e8bd;
 }
 
 /* ---Education--- */
 .education {
-  background-color: #efa7a7ff;
+  background-color: #fcbcb8;
 }
 
 /* ---Contact--- */
-footer {
-  background-color: #ffd972ff;
-}
-
-footer a {
-    color: plum;
-}
