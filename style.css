@@ -5,13 +5,9 @@
 
 /* ---Box model fix--- */
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 /* ---Global style--- */
@@ -85,6 +81,23 @@ p {
   background-color: #ffb739;
   text-decoration: none;
 }
+
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed black;
+  padding: 25px 0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 30px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+/* Known isues: Projent context flow underneath the image. */
 
 /* ---Experience--- */
 .work-experience {
