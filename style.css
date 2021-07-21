@@ -3,6 +3,10 @@
   background: #0A1931;
 }
 
+img::selection {
+  background: gray;
+}
+
 /* ---Box model fix--- */
 html {
   box-sizing: border-box;
@@ -67,6 +71,11 @@ p {
 
 .projects a:hover {
   background-color: transparent;
+}
+
+.project-description {
+  margin: 10px 0;
+  text-align: center;
 }
 
 .projects .btn {
