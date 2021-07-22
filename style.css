@@ -3,6 +3,19 @@
   background: #0A1931;
 }
 
+img::selection {
+  background: gray;
+}
+
+/* ---Box model fix--- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* ---Global style--- */
+
 body {
   background-color: #eeeeee;
   padding: 0;
@@ -60,6 +73,11 @@ p {
   background-color: transparent;
 }
 
+.project-description {
+  margin: 10px 0;
+  text-align: center;
+}
+
 .projects .btn {
   color: white;
   background-color: #ff8939;
@@ -73,6 +91,23 @@ p {
   text-decoration: none;
 }
 
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed black;
+  padding: 25px 0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 30px;
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+/* Known isues: Projent context flow underneath the image. */
+
 /* ---Experience--- */
 .work-experience {
   background-color: #a7e8bd;
@@ -84,3 +119,15 @@ p {
 }
 
 /* ---Contact--- */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.contact-list a {
+  margin: 10px;
+  display: inline-block;
+}
